@@ -388,9 +388,7 @@ String getValue(String data, char separator, int index){
   return found>index ? data.substring(strIndex[0], strIndex[1]) : "";
 }
 
-void wifiTask() {
-  //receivedData = read_String(wifiAddr);
-  //receivedData = "55,TP-Link_ELECTROPROD,Batimat2017,193.70.2.114,1883,1,Connected.Domotic.System,SuperCacahouette,";
+void wifiTask() 
 
   if(receivedData.length() > 0){
     String testTrame = getValue(receivedData, ',', 0);
