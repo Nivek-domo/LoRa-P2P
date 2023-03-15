@@ -388,7 +388,7 @@ String getValue(String data, char separator, int index){
   return found>index ? data.substring(strIndex[0], strIndex[1]) : "";
 }
 
-void wifiTask() 
+void wifiTask(){
 
   if(receivedData.length() > 0){
     String testTrame = getValue(receivedData, ',', 0);

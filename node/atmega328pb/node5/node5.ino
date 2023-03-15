@@ -11,6 +11,9 @@
 #define DIO0 2
 #define DIO1 3
 
+#define IRQ_CAD_DONE_MASK          0b00000100
+#define IRQ_CAD_DETECTED_MASK      0b00000001
+
 //433E6 for Asia
 //866E6 for Europe
 //915E6 for North America
